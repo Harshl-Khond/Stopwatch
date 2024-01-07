@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1abc9c;
+}
+fieldset{
+    height: 5cm;
+    width: 8cm;
+    background-image: url("green-texture.jpg");
+    background-size: cover;
+    border:groove white;
+    
+}
+
+.stopwatch-container {
+    text-align: center;
+    color: aliceblue;
+}
+
+.stopwatch-display {
+    margin-top: 50px;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+button {
+    font-size: 1em;
+    padding: 8px 16px;
+    margin: 5px;
+    cursor: pointer;
+}
+#startBtn{
+    background-color: green;
+    border:  groove white;
+}
+#stopBtn{
+    background-color: red;
+    border:  groove white;
+
+}
+#resetBtn{
+    background-color: yellow;
+    border:  groove white;
+}
